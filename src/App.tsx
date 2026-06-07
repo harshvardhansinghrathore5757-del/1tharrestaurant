@@ -15,6 +15,7 @@ import BookTable from './components/BookTable';
 import MarqueeBanner from './components/MarqueeBanner';
 import Footer from './components/Footer';
 
+
 export default function App() {
   return (
     <div className="font-sans antialiased text-sand bg-dark-brown selection:bg-terracotta selection:text-dark-brown overflow-x-hidden">
