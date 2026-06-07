@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-serif: Georgia, serif;
+  --color-sand: #E5E5E5;
+  --color-terracotta: #C5A059;
+  --color-deep-red: #C5A059;
+  --color-dark-brown: #0F0F0F;
+  --color-border-dark: #2A2A2A;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+.animate-marquee {
+  animation: marquee 25s linear infinite;
+}
+
